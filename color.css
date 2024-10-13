@@ -1,0 +1,655 @@
+body{
+    background-color: black;
+}
+.containers{
+    width: 100vh;
+    height: auto;
+    display: grid;
+    /* background-color: black; */
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+.item{
+    height: 90px;
+    width: 90px;
+    background-color: red;
+    margin: 10px;
+}
+.item1{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+    
+}    
+.item1:hover{
+    box-shadow: 0 0 15px white;
+    background-color: rgb(251, 255, 10);
+}
+.item2{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item2:hover{
+    background-color: rgb(7, 250, 169);
+    box-shadow: 0 0 15px white;
+
+}
+.item3{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item3:hover{
+    background-color: rgb(255, 238, 7);
+    box-shadow: 0 0 15px white;
+
+}
+.item4{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item4:hover{
+    background-color: hsl(313, 100%, 53%);
+    box-shadow: 0 0 15px white;
+
+}
+.item5{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item5:hover{
+    background-color: rgb(11, 11, 206);
+    box-shadow: 0 0 15px white;
+
+}
+.item6{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item6:hover{
+    background-color: rgb(73, 1, 73);
+    box-shadow: 0 0 15px white;
+
+}
+.item7{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item7:hover{
+    background-color: rgb(6, 172, 223);
+    box-shadow: 0 0 15px white;
+
+}
+.item8{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item8:hover{
+    background-color: rgb(201, 240, 27);
+    box-shadow: 0 0 15px white;
+
+}
+.item9{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item9:hover{
+    background-color: rgb(7, 206, 0);
+    box-shadow: 0 0 15px white;
+
+}
+.item10{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item10:hover{
+    background-color: rgb(223, 0, 223);
+    box-shadow: 0 0 15px white;
+
+}
+.item11{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item11:hover{
+    background-color: rgb(0, 185, 31);
+    box-shadow: 0 0 15px white;
+
+}
+.item12{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item12:hover{
+    background-color: rgb(205, 19, 230);
+    box-shadow: 0 0 15px white;
+
+}
+.item13{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item13:hover{
+    background-color: rgb(103, 224, 188);
+    box-shadow: 0 0 15px white;
+
+}
+.item14{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item14:hover{
+    background-color: rgb(0, 214, 107);
+    box-shadow: 0 0 15px white;
+
+}
+.item15{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item15:hover{
+    background-color: rgb(193, 255, 22);
+    box-shadow: 0 0 15px white;
+
+}
+.item16{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item16:hover{
+    background-color: rgb(22, 56, 3);
+    box-shadow: 0 0 15px white;
+
+}
+.item17{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item17:hover{
+    background-color: rgb(124, 11, 96);
+    box-shadow: 0 0 15px white;
+
+}
+.item18{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item18:hover{
+    background-color: rgb(121, 13, 115);
+    box-shadow: 0 0 15px white;
+
+}
+.item19{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item19:hover{
+    background-color: rgb(0, 168, 190);
+    box-shadow: 0 0 15px white;
+
+}
+.item20{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item20:hover{
+    background-color: rgb(170, 226, 16);
+    box-shadow: 0 0 15px white;
+
+}
+.item21{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item21:hover{
+    background-color: rgb(22, 187, 199);
+    box-shadow: 0 0 15px white;
+
+}
+.item22{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item22:hover{
+    background-color: rgb(184, 13, 79);
+    box-shadow: 0 0 15px white;
+
+}
+.item23{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item23:hover{
+    background-color: rgba(0, 189, 116, 0.733);
+    box-shadow: 0 0 15px white;
+
+}
+.item24{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item24:hover{
+    background-color: rgb(140, 190, 0);
+    box-shadow: 0 0 15px white;
+
+}
+.item25{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item25:hover{
+    background-color: rgb(255, 0, 128);
+    box-shadow: 0 0 15px white;
+
+}
+.item26{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item26:hover{
+    background-color: rgb(235, 91, 8);
+    box-shadow: 0 0 15px white;
+
+}
+.item27{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item27:hover{
+    background-color: rgb(243, 0, 243);
+    box-shadow: 0 0 15px white;
+
+}
+.item28{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item28:hover{
+    background-color: rgb(0, 247, 193);
+    box-shadow: 0 0 15px white;
+
+}
+.item29{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item29:hover{
+    background-color: rgb(4, 235, 62);
+    box-shadow: 0 0 15px white;
+
+}
+.item30{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item30:hover{
+    background-color: rgb(99, 134, 2);
+    box-shadow: 0 0 15px white;
+
+}
+.item31{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item31:hover{
+    background-color: rgb(231, 0, 200);
+    box-shadow: 0 0 15px white;
+
+}
+.item32{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item32:hover{
+    background-color: rgb(243, 184, 21);
+    box-shadow: 0 0 15px white;
+
+}
+.item33{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item33:hover{
+    background-color: rgb(21, 212, 164);
+    box-shadow: 0 0 15px white;
+
+}
+.item34{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item35:hover{
+    background-color: rgb(14, 219, 107);
+    box-shadow: 0 0 15px white;
+
+}
+.item36{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item36:hover{
+    background-color: rgb(11, 238, 189);
+    box-shadow: 0 0 15px white;
+
+}
+.item37{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item37:hover{
+    background-color: rgb(8, 189, 32);
+    box-shadow: 0 0 15px white;
+
+}
+.item38{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item38:hover{
+    background-color: rgb(13, 129, 2);
+    box-shadow: 0 0 15px white;
+
+}
+.item39{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item39:hover{
+    background-color: rgb(211, 0, 176);
+    box-shadow: 0 0 15px white;
+
+}
+.item40{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item40:hover{
+    background-color: rgb(0, 14, 212);
+    box-shadow: 0 0 15px white;
+
+}
+.item41{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item41:hover{
+    background-color: rgb(181, 236, 27);
+    box-shadow: 0 0 15px white;
+
+}
+.item42{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item42:hover{
+    background-color: rgb(223, 0, 137);
+    box-shadow: 0 0 15px white;
+
+}
+.item43{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item43:hover{
+    background-color: rgb(176, 238, 6);
+    box-shadow: 0 0 15px white;
+
+}
+.item44{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item44:hover{
+    background-color: rgb(5, 255, 222);
+    box-shadow: 0 0 15px white;
+
+}
+.item45{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item46:hover{
+    background-color: rgb(206, 13, 125);
+    box-shadow: 0 0 15px white;
+
+}
+.item47{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item47:hover{
+    background-color: rgb(131, 11, 155);
+    box-shadow: 0 0 15px white;
+
+}
+.item48{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item48:hover{
+    background-color: rgb(126, 7, 72);
+    box-shadow: 0 0 15px white;
+
+}
+.item49{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item49:hover{
+    background-color: rgb(107, 6, 6);
+    box-shadow: 0 0 15px white;
+
+}
+.item50{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item50:hover{
+    background-color: rgb(172, 235, 1);
+    box-shadow: 0 0 15px white;
+
+}
+.item51{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item51:hover{
+    background-color: rgb(240, 78, 3);
+    box-shadow: 0 0 15px white;
+
+}
+.item52{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item52:hover{
+    background-color: rgb(4, 221, 167);
+    box-shadow: 0 0 15px white;
+
+}
+.item53{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item53:hover{
+    background-color: rgb(38, 189, 216);
+    box-shadow: 0 0 15px white;
+
+}
+.item54{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item54:hover{
+    background-color: rgb(7, 117, 207);
+    box-shadow: 0 0 15px white;
+
+    
+}
+.item55{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item55:hover{
+    background-color: rgb(54, 3, 173);
+    box-shadow: 0 0 15px white;
+
+}
+.item56{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item56:hover{
+    background-color: rgb(128, 5, 121);
+    box-shadow: 0 0 15px white;
+
+}
+.item57{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item57:hover{
+    background-color: rgb(107, 201, 149);
+    box-shadow: 0 0 15px white;
+
+}
+.item58{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item58:hover{
+    background-color: rgb(191, 255, 14);
+    box-shadow: 0 0 15px white;
+
+}
+.item59{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item59:hover{
+    background-color: rgb(8, 165, 86);
+    box-shadow: 0 0 15px white;
+
+}
+.item60{
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}    
+.item60:hover{
+    background-color: rgb(252, 23, 157);
+    box-shadow: 0 0 15px white;
+
+}
+
